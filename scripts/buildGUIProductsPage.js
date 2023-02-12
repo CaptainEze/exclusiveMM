@@ -24,6 +24,6 @@ const descTag = document.getElementById('description');
 priceTag.innerHTML= '$'+price;
 productName.innerHTML = name;
 rate.innerHTML = rating;
-img1.style.backgroundImage = imgUl;
+img1.style.backgroundImage = imgUrl;
 
 description.innerHTML = desc;
