@@ -1,4 +1,4 @@
-alert('hi');
+
 var searchBar = document.getElementById('search_bar');
 searchBar.onchange = (e)=>{
     window.location.href = './categoriesPage.html?'+e.target.value;
