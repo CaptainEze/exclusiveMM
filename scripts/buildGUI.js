@@ -1,7 +1,7 @@
 //var topPicks = document.getElementById('top_picks');
 var searchBar = document.getElementById('search_bar');
 searchBar.onchange=(e)=>{
-    window.location.href='./assets/categoriesPage.html?'+e.target.value;
+    window.location.href='./categoriesPage.html?'+e.target.value;
 }
 
 
@@ -12,7 +12,7 @@ class TopPicks extends Products{
     
     buildToGui=()=>{
         
-        this.aTag.setAttribute('href','./assets/products_page.html?'+this.imgUrl+'|'+this.rating+'|'+this.price+'|'+this.name+'|'+this.desc);
+        this.aTag.setAttribute('href','./products_page.html?'+this.imgUrl+'|'+this.rating+'|'+this.price+'|'+this.name+'|'+this.desc);
         this.aTag.setAttribute('class','btns_in_a');
         document.getElementById('top_picks').appendChild(this.aTag);
         this.aTag.appendChild(this.btn);
@@ -73,7 +73,7 @@ class HotToday extends Products{
     
     buildToGui=()=>{
         
-        this.aTag.setAttribute('href','./assets/products_page.html?'+this.imgUrl+'|'+this.rating+'|'+this.price+'|'+this.name+'|'+this.desc);
+        this.aTag.setAttribute('href','./products_page.html?'+this.imgUrl+'|'+this.rating+'|'+this.price+'|'+this.name+'|'+this.desc);
         this.aTag.setAttribute('class','btns_in_a');
         document.getElementById('hot_today').appendChild(this.aTag);
         this.aTag.appendChild(this.btn);
