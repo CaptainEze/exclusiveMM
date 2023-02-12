@@ -1,0 +1,2 @@
+//the files in this location contains the styling of the 
+//website.
