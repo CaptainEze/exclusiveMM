@@ -3,7 +3,7 @@ var searchBar = document.getElementById('search_bar');
 searchBar.onchange = (e)=>{
     window.location.href = './categoriesPage.html?'+e.target.value;
 }
-
+alert('hi');
 var queryString = location.search.substring(1);
 var productDetails = queryString.split("|");
 var imgUrl = decodeURIComponent(productDetails[0]);
