@@ -1,0 +1,2 @@
+//these scripts are concerned with the running of 
+//the front end frame of the website.
