@@ -3,7 +3,7 @@ var searchBar = document.getElementById('search_bar');
 searchBar.onchange = (e)=>{
     window.location.href = './categoriesPage.html?'+e.target.value;
 }
-alert('hi');
+alert('hi')
 var queryString = location.search.substring(1);
 var productDetails = queryString.split("|");
 var imgUrl = decodeURIComponent(productDetails[0]);
@@ -24,6 +24,6 @@ const descTag = document.getElementById('description');
 priceTag.innerHTML= '$'+price;
 productName.innerHTML = name;
 rate.innerHTML = rating;
-img1.style.backgroundImage = imgUrl;
+img1.style.backgroundImage = imgUl;
 
 description.innerHTML = desc;
