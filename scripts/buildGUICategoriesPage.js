@@ -1,3 +1,4 @@
+alert('hi');
 const changeUrl =(qStr)=>{
     let oldURL= window.location.href;
     let oldQueryString = decodeURIComponent(location.search.substring(1));
