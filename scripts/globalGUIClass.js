@@ -1,3 +1,4 @@
+alert('hi');
 const defaultProductImg = 'https://techmall.com.ng/wp-content/uploads/2021/09/HP-Laptop-14-DK1006NIA%E2%80%93-2B0A8EA-1.jpg';
 const defaultProductRate = 4.7;
 const defaultProductPrice = 7000;
